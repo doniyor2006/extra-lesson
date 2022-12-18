@@ -1,1 +1,80 @@
 // Behruz aka css codes
+.hero__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    h1 {
+        width: 125px;
+        height: 118px;
+        font-family: 'Gilroy-Bold';
+        font-size: 47.3392px;
+        line-height: 59px;
+        color: #070707;
+    }
+
+    p {
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 22px;
+        width: 156px;
+        height: 44px;
+        color: #070707;
+    }
+}
+
+.hero__img {
+    img {
+        width: 100%;
+    }
+}
+
+.hero__img2 {
+    display: none;
+}
+.hero__people2{
+    display: none;
+}
+
+@media only screen and (max-width:450px) {
+    .hero__item {
+        .hero__img1 {
+            display: none;
+        }
+    }
+
+    .hero__item {
+
+        h1 {
+            font-family: 'Gilroy-Bold';
+            font-size: 47.3392px;
+            line-height: 59px;
+            width: 124px;
+            height: 106px;
+            margin-bottom: 24px;
+            color: #070707;
+
+        }
+
+        P {
+            display: none;
+            font-family: 'Gilroy-Medium';
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #090909;
+            margin-bottom: 36px;
+        }
+    }
+
+    .hero__img2 {
+        display: block;
+    }
+    .hero__people1{
+        display: none;
+    }
+    .hero__people2{
+        display: block;
+    }
+}
